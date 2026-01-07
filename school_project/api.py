@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import os
 import django
 
+
 # --- STEP 1: CONFIGURE DJANGO FIRST ---
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'school_project.settings')
 django.setup()

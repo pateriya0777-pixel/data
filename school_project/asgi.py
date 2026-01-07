@@ -27,6 +27,7 @@ application = get_asgi_application()
 # We will use Starlette's Mount to attach FastAPI to Django's URL handling 
 # is hard. Instead, let's just make a master FastAPI app that holds both.
 
+
 from starlette.middleware.wsgi import WSGIMiddleware
 from django.core.wsgi import get_wsgi_application
 
