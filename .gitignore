@@ -1,6 +1,27 @@
-# .gitignore
+# Dependency directories
+node_modules/
 venv/
+.venv/
+env/
+
+# Python cache and compiled files
 __pycache__/
-*.pyc
-db.sqlite3
+*.py[cod]
+*$py.class
+
+# Distribution / Build folders
+dist/
+build/
+out/
+
+# Environment variables (Sensitive!)
+.env
+.env.local
+
+# Databases (if using SQLite)
+*.sqlite3
+
+# IDEs and Editors
+.vscode/
+.idea/
 .DS_Store
